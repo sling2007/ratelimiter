@@ -1,7 +1,7 @@
-package com.aliyun.ratelimiter.demo.controller;
+package com.sling.ratelimiter.demo.controller;
 
-import com.aliyun.shield.ratelimiter.core.annotation.RateLimiter;
-import com.aliyun.shield.ratelimiter.core.cache.CacheProxy;
+import com.sling.shield.ratelimiter.core.annotation.RateLimiter;
+import com.sling.shield.ratelimiter.core.cache.CacheProxy;
 import org.apache.catalina.servlet4preview.http.HttpServletRequest;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -1,4 +1,4 @@
-package com.aliyun.shield.ratelimiter.core.annotation;
+package com.sling.shield.ratelimiter.core.annotation;
 
 import java.lang.annotation.*;
 

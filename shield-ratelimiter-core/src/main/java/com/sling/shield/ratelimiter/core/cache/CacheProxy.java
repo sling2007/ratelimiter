@@ -1,4 +1,4 @@
-package com.aliyun.shield.ratelimiter.core.cache;
+package com.sling.shield.ratelimiter.core.cache;
 
 
 import org.springframework.beans.factory.annotation.Autowired;

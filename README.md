@@ -191,7 +191,7 @@ init() 方法在应用启动时会初始化DefaultRedisScript，并加载Lua脚�
 PS: Lua脚本放置在classpath下，通过ClassPathResource进行加载。
 
 
-            @Pointcut("@annotation(com.aliyun.shield.ratelimiter.core.annotation.RateLimiter)")
+            @Pointcut("@annotation(com.sling.shield.ratelimiter.core.annotation.RateLimiter)")
             public void rateLimiter() {}
 
 这里我们定义了一个切点，表示只要注解了 **@RateLimiter** 的方法，均可以触发限流操作。

@@ -1,6 +1,6 @@
-package com.aliyun.shield.ratelimiter.core.handler;
+package com.sling.shield.ratelimiter.core.handler;
 
-import com.aliyun.shield.ratelimiter.core.annotation.RateLimiter;
+import com.sling.shield.ratelimiter.core.annotation.RateLimiter;
 import com.google.common.base.Preconditions;
 import org.apache.commons.lang3.StringUtils;
 import org.aspectj.lang.ProceedingJoinPoint;
@@ -42,7 +42,7 @@ public class RateLimterHandler {
         LOGGER.info("RateLimterHandler[分布式限流处理器]脚本加载完成");
     }
 
-    @Pointcut("@annotation(com.aliyun.shield.ratelimiter.core.annotation.RateLimiter)")
+    @Pointcut("@annotation(com.sling.shield.ratelimiter.core.annotation.RateLimiter)")
     public void rateLimiter() {}
 
     @Around("@annotation(rateLimiter)")

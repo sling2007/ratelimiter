@@ -1,4 +1,4 @@
-package com.aliyun.ratelimiter.demo;
+package com.sling.ratelimiter.demo;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -10,7 +10,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 @EnableScheduling
 @SpringBootApplication
-@ComponentScan(basePackages = {"com.aliyun"})
+@ComponentScan(basePackages = {"com.sling"})
 public class Application {
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(Application.class);
